@@ -1,0 +1,23 @@
+.About {
+    margin-top: 75px;
+}
+
+.About_content {
+
+}
+
+    #about-img {
+        float: left;
+        margin-bottom: 15px;
+    }
+
+    #about-p {
+        float: right;
+        text-align: left;
+    }
+
+    #about-skills {
+        float: right;
+        text-align: left;
+        padding-left: 50px;
+    }
