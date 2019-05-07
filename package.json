@@ -1,6 +1,7 @@
 {
   "name": "portfolio",
   "version": "2.0.0",
+  "homepage": "https://theinfamousak.github.io/portfolio",
   "private": true,
   "dependencies": {
     "react": "^16.8.6",
