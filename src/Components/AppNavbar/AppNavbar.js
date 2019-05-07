@@ -74,12 +74,12 @@ class AppNavbar extends Component {
                   </NavLink>
                 </NavItem>
                 <NavItem>
-                  <NavLink className="NavLinks" href="https://github.com/theinfamousAK" target="_blank">
+                  <NavLink className="NavLinks" exact to="https://github.com/theinfamousAK" target="_blank">
                     github
                   </NavLink>
                 </NavItem>
                 <NavItem>
-                  <NavLink className="NavLinks" href="https://www.linkedin.com/in/akhilkalepu/" target="_blank">
+                  <NavLink className="NavLinks" exact to="https://www.linkedin.com/in/akhilkalepu/" target="_blank">
                     linkedin
                   </NavLink>
                 </NavItem>
