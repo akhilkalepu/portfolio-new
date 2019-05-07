@@ -10,6 +10,7 @@ import {
 } from "reactstrap";
 
 import {
+  Link,
   NavLink
 } from "react-router-dom";
 
@@ -52,14 +53,14 @@ class AppNavbar extends Component {
                   </NavLink>
                 </NavItem>
                 <NavItem>
-                  <NavLink className="NavLinks" to="https://github.com/theinfamousAK/" exact={true} target="_blank">
+                  <a className="NavLinks" href="https://github.com/theinfamousAK/" target="_blank">
                     github
-                  </NavLink>
+                  </a>
                 </NavItem>
                 <NavItem>
-                  <NavLink className="NavLinks" exact to="https://www.linkedin.com/in/akhilkalepu/" target="_blank">
+                  <a className="NavLinks" href="https://www.linkedin.com/in/akhilkalepu/" target="_blank">
                     linkedin
-                  </NavLink>
+                  </a>
                 </NavItem>
 
               </Nav>
