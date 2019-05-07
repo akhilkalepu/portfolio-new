@@ -1,0 +1,17 @@
+{
+  "files": {
+    "main.css": "/portfolio/static/css/main.18f34014.chunk.css",
+    "main.js": "/portfolio/static/js/main.7d52dade.chunk.js",
+    "main.js.map": "/portfolio/static/js/main.7d52dade.chunk.js.map",
+    "runtime~main.js": "/portfolio/static/js/runtime~main.f308c8e6.js",
+    "runtime~main.js.map": "/portfolio/static/js/runtime~main.f308c8e6.js.map",
+    "static/js/2.49b170d7.chunk.js": "/portfolio/static/js/2.49b170d7.chunk.js",
+    "static/js/2.49b170d7.chunk.js.map": "/portfolio/static/js/2.49b170d7.chunk.js.map",
+    "index.html": "/portfolio/index.html",
+    "precache-manifest.4a5ac4fa87ac740fa5fdbd77f9074f9b.js": "/portfolio/precache-manifest.4a5ac4fa87ac740fa5fdbd77f9074f9b.js",
+    "service-worker.js": "/portfolio/service-worker.js",
+    "static/css/main.18f34014.chunk.css.map": "/portfolio/static/css/main.18f34014.chunk.css.map",
+    "static/media/Akhil Kalepu Suit.jpg": "/portfolio/static/media/Akhil Kalepu Suit.a6374209.jpg",
+    "static/media/logo.svg": "/portfolio/static/media/logo.5d5d9eef.svg"
+  }
+}
