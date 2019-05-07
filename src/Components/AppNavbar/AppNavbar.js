@@ -36,7 +36,7 @@ class AppNavbar extends Component {
   render() {
     return (
       <div>
-        <Navbar color="faded" light expand="sm" fixed={`top`} className="mb-5">
+        <Navbar color="white" light expand="sm" fixed={`top`} className="mb-5">
 
           <Container>
 

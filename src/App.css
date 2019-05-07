@@ -24,7 +24,7 @@
 }
 
 .body {
-  margin-top: 80px;
+  margin-top: 15px;
   padding-top: 22px;
 }
 
@@ -39,6 +39,6 @@
 
 @media screen and (max-width: 575px) {
   .body {
-    margin-top: 165px;
+    margin-top: 75px;
   }
 }
