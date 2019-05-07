@@ -32,7 +32,7 @@ class About extends Component {
 
           <p>You can reach me at <a href="mailto:akhilkalepu@protonmail.com">akhilkalepu@protonmail.com</a>.</p>
           
-          <p>You can find my resume <a href="https://drive.google.com/file/d/1fKqMamTFEtmqzlPwgek1le_C6MqMXAaq/view?usp=sharing" target="_blank">here</a>.</p>
+          <p>You can find my resume <a href="https://drive.google.com/file/d/1fKqMamTFEtmqzlPwgek1le_C6MqMXAaq/view?usp=sharing" target="_blank" rel="noopener noreferrer">here</a>.</p>
 
         </div>
 

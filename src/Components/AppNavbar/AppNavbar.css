@@ -16,6 +16,11 @@
 
 }
 
+Nav {
+    border-bottom-style: solid;
+    border-bottom-color: #ae0007;
+}
+
 @media screen and (max-width: 575px) {
     #AkhilKalepu {
         font-size: 25px;

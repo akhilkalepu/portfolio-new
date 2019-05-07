@@ -1,6 +1,9 @@
 import React, { Component } from 'react';
-import AkhilKalepuSuit from '../../Images/Akhil Kalepu Suit.jpg';
+import projects from "../../projects.json";
 import "./Projects.css";
+
+import Wrapper from "../../Components/Wrapper/Wrapper";
+import Card from "../../Components/Card/Card"
 
 import {
   
@@ -9,13 +12,25 @@ import {
 
 class Projects extends Component {
 
+  state = {
+    projects
+  };
+
   render() {
     return (
-      <div className="About">
-
-        projects page
-
-      </div>
+      <Wrapper>
+        {this.state.projects.map(card => (
+            <Card
+              key={card.id}
+              handleClick={this.handleClick}
+              handleIncrement={this.handleIncrement}
+              handleReset={this.handleReset}
+              handleShuffle={this.handleShuffle}
+              id={card.id}
+              image={card.image}
+            />
+          ))}
+      </Wrapper>
     );
   }
 }
