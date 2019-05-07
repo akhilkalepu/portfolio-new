@@ -1,5 +1,23 @@
-.navbar {
+#AkhilKalepu {
 
-    
-    
+    font-family: "Helvetica Neue", "Arial", sans-serif;
+    font-style: italic;
+    font-size: 40px;
+
+}
+
+.NavLinks {
+
+    font-family: "Helvetica Neue", "Arial", sans-serif;
+    font-style: italic;
+    font-size: 25px;
+    margin: 10px;
+    color: black;
+
+}
+
+@media screen and (max-width: 575px) {
+    #AkhilKalepu {
+        font-size: 25px;
+    }
 }

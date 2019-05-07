@@ -6,6 +6,7 @@ import './App.css';
 
 import AppNavbar from "./Components/AppNavbar/AppNavbar";
 import About from "./Pages/About/About";
+import Projects from "./Pages/Projects/Projects";
 
 class App extends Component {
   render() {
@@ -17,9 +18,10 @@ class App extends Component {
 
             <AppNavbar/>
 
-            <div className="container">
+            <div className="body">
               
               <Route exact path="/" component={About} />
+              <Route exact path="/projects" component={Projects} />
 
             </div>
 

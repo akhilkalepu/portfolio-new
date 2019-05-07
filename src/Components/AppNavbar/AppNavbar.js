@@ -2,32 +2,36 @@ import React, { Component } from 'react';
 import "./AppNavbar.css";
 
 import {
-  Collapse,
+  // Collapse,
   Navbar,
-  NavbarToggler,
+  // NavbarToggler,
   NavbarBrand,
   Nav,
   NavItem,
-  NavLink,
+  // NavLink,
   Container
 } from "reactstrap";
 
+import {
+  NavLink
+} from "react-router-dom";
+
 class AppNavbar extends Component {
 
-  constructor(props) {
-    super(props);
+  // constructor(props) {
+  //   super(props);
 
-    this.toggleNavbar = this.toggleNavbar.bind(this);
-    this.state = {
-      collapsed: true
-    };
-  }
+  //   this.toggleNavbar = this.toggleNavbar.bind(this);
+  //   this.state = {
+  //     collapsed: true
+  //   };
+  // }
 
-  toggleNavbar() {
-    this.setState({
-      collapsed: !this.state.collapsed
-    });
-  }
+  // toggleNavbar() {
+  //   this.setState({
+  //     collapsed: !this.state.collapsed
+  //   });
+  // }
   
   render() {
     return (
@@ -36,40 +40,57 @@ class AppNavbar extends Component {
 
           <Container>
 
-            <NavbarBrand href="/">Akhil Kalepu</NavbarBrand>
+            <NavbarBrand id="AkhilKalepu" href="/">Akhil Kalepu</NavbarBrand>
 
-            <NavbarToggler onClick={this.toggleNavbar} className="mr-2" />
+            {/* <NavbarToggler onClick={this.toggleNavbar} className="mr-2" />
 
-            <Collapse isOpen={!this.state.collapsed} navbar>
+            <Collapse isOpen={!this.state.collapsed} navbar> */}
 
               <Nav className="ml-auto" navbar>
                 <NavItem>
-                  <NavLink href="/">
+                  <NavLink
+                  className="NavLinks"
+                  exact to = "/"
+                  activeStyle = {
+                      {
+                        fontWeight: "bold",
+                        color: "#ae0007"
+                      }
+                    } >
                     about me
                   </NavLink>
                 </NavItem>
                 <NavItem>
-                  <NavLink href="/projects">
+                  <NavLink
+                  className="NavLinks"
+                  exact to = "/projects"
+                  activeStyle = {
+                      {
+                        fontWeight: "bold",
+                        color: "#ae0007"
+                      }
+                    } >
                     projects
                   </NavLink>
                 </NavItem>
                 <NavItem>
-                  <NavLink href="https://github.com/theinfamousAK" target="_blank">
+                  <NavLink className="NavLinks" href="https://github.com/theinfamousAK" target="_blank">
                     github
                   </NavLink>
                 </NavItem>
                 <NavItem>
-                  <NavLink href="https://www.linkedin.com/in/akhilkalepu/" target="_blank">
+                  <NavLink className="NavLinks" href="https://www.linkedin.com/in/akhilkalepu/" target="_blank">
                     linkedin
                   </NavLink>
                 </NavItem>
 
               </Nav>
 
-            </Collapse>
+            {/* </Collapse> */}
 
           </Container>
         </Navbar>
+
       </div>
     );
   }

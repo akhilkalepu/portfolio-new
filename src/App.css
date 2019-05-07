@@ -23,6 +23,13 @@
   color: #61dafb;
 }
 
+.body {
+  margin-top: 80px;
+  padding-top: 22px;
+  border-top-style: solid;
+  border-top-color: #ae0007;
+}
+
 @keyframes App-logo-spin {
   from {
     transform: rotate(0deg);
@@ -32,8 +39,8 @@
   }
 }
 
-/* @media screen and (max-width: 575px) {
-  body p {
-    margin-top: 15px;
+@media screen and (max-width: 575px) {
+  .body {
+    margin-top: 165px;
   }
-} */
+}
